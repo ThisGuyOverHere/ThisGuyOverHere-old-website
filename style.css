@@ -116,6 +116,10 @@ footer a:visited {
 	border-radius: 0;
 }
 
+#subtitle{
+	text-align: center;
+}
+
 .intro-column{
 	text-align: center;
 }
