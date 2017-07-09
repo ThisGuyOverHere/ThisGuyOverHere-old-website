@@ -150,9 +150,9 @@ footer a:visited {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-    p{
+    p {
     	padding: 0.5em 0 0.7em;
-    	font-size: 120%
+    	font-size: 140%
     }
 
     #assistenza{
