@@ -1,0 +1,174 @@
+html, body {
+	height: 100%;
+}
+
+nav {
+	background-color: white;
+}
+
+header{
+	margin-top: 1em;
+}
+
+h2{
+	text-align: center;
+}
+
+section{
+	padding: 3em 0;
+	margin: 0;
+}
+
+footer{
+	margin:0;
+	padding: 2em 0 4em;
+	background-color: #FFF;
+	color: #05549B;
+	height: 100%;
+}
+
+footer a:link,
+footer a:visited {
+	text-decoration: none;
+	color: #05549B;
+}
+
+#toggle{
+	border: 1px solid #3f86c4;
+	background-color: #3f86c4;
+}
+
+#logo{
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#who{
+	background-color: #05549B;
+	color: white;
+}
+
+#what{
+	background-color: #FFC610;
+	color: rgb(12, 12, 12);
+}
+/*
+#servizi{
+	visibility: hidden;
+}
+*/
+#prestazioni{
+	display: none;
+}
+
+#btn-wrapper{
+	border: 2px solid white;
+	padding: 0;
+}
+
+#contacts-title{
+	text-align: left;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 50px auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+
+}
+
+#quick-contact {
+	height: 60px;
+	width: 100%;
+	background-color: #FFF;
+	color: #05549B;
+	position: fixed;
+	bottom: 0;
+}
+
+#btn-assistenza{
+	background-color: #05549B;
+	color: white;
+}
+
+#request{
+	height: 60px;
+	line-height: 60px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#link-request{
+	text-align: center;
+}
+
+#btn-impianti,
+#btn-prestazioni{
+	border-radius: 0;
+}
+
+.intro-column{
+	text-align: center;
+}
+
+.menuItem{
+	text-align: center;
+	height:100%;
+}
+
+.section-title{
+	margin-bottom: 0.5em;
+}
+
+
+.btn{
+	background-color: transparent;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+
+.btn:not(.selected):hover{
+	background-color: rgba(255,255,255,0.5);
+}
+
+.selected{
+	background-color: #FFF;
+}
+
+
+.col-choice{
+	border: 2px solid white;
+	border-top: none;
+	margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    p{
+    	padding: 0.5em 0 0.7em;
+    	font-size: 120%
+    }
+
+    #assistenza{
+		font-size: 90%
+	}
+
+	#btn-assistenza{
+		font-size: 90%
+	}
+
+	.subsection-title{
+		font-size: 28px
+	}
+
+	.subsection-title-sm{
+		font-size: 22px
+	}
+
+}
