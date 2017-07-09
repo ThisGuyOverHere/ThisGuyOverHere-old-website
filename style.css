@@ -2,6 +2,10 @@ html, body {
 	height: 100%;
 }
 
+p {
+	text-align: justify;
+}
+
 nav {
 	background-color: white;
 }
@@ -150,7 +154,7 @@ footer a:visited {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-    p {
+    p, a {
     	padding: 0.5em 0 0.7em;
     	font-size: 140%
     }
