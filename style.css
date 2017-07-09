@@ -154,7 +154,7 @@ footer a:visited {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-    p, a {
+    p, #mail {
     	padding: 0.5em 0 0.7em;
     	font-size: 140%
     }
