@@ -155,12 +155,38 @@ footer a:visited {
 	margin-bottom: 1em;
 }
 
+@media only screen and (max-width: 960px) {
+    /* For mobile phones: */
+
+    p, #mail {
+    	padding: 0.5em 0 0.7em;
+    	font-size: 120%;
+    }
+
+    #assistenza{
+		font-size: 90%
+	}
+
+	#btn-assistenza{
+		font-size: 90%
+	}
+
+	.subsection-title{
+		font-size: 28px
+	}
+
+	.subsection-title-sm{
+		font-size: 22px
+	}
+
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
     p, #mail {
     	padding: 0.5em 0 0.7em;
-    	font-size: 140%
+    	font-size: 140%;
     }
 
     #assistenza{
