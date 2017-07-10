@@ -97,6 +97,7 @@ footer a:visited {
 #btn-assistenza{
 	background-color: #05549B;
 	color: white;
+	margin: -2px 0 0;
 }
 
 #request{
